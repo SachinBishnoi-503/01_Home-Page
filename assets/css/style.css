@@ -169,11 +169,11 @@
 .pb-145 {
   padding-bottom: 145px;
 }
-.orange-line-after {
+.orange-line-before {
   width: 20px;
   border-bottom: 1px solid #ff5300;
 }
-.orange-line-before {
+.orange-line-after {
   width: 20px;
   border-bottom: 1px solid #ff5300;
 }
@@ -219,7 +219,7 @@
   box-shadow: 0px 1px 4px 0px #0000001a;
 }
 .box:hover {
- box-shadow: 0px -4px 58px 12px #0000001a;
+  box-shadow: 0px -4px 58px 12px #0000001a;
 }
 
 .col-4 {
@@ -262,6 +262,69 @@
   line-height: 24px;
   text-align: left;
   color: #7b7b7b;
+}
+.pb-120 {
+  padding-bottom: 120px;
+}
+.aboutus-line-after {
+  width: 30px;
+  border-bottom: 1px solid #ff5300;
+}
+.about-us {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #ff5300;
+}
+.pt-8 {
+  padding-top: 8px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.grow-business {
+  font-family: "Poppins", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 58.59px;
+  text-align: left;
+  color: #373737;
+}
+.lorem-para-sction-3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #7b7b7b;
+}
+.mark-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #373737;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.gap-15 {
+  gap: 15px;
+}
+.section-3-background {
+  background-color: #fff7f4;
+}
+.pt-120 {
+  padding-top: 120px;
+}
+.pb-120 {
+  padding-bottom: 120px;
 }
 @media (max-width: 992px) {
   .menubar {
@@ -307,12 +370,12 @@
     padding-right: 12px;
     padding-left: 12px;
   }
-  .lg-col-6{
+  .lg-col-6 {
     width: 50%;
     padding-right: 12px;
     padding-left: 12px;
   }
-  .lg-mt-30{
+  .lg-mt-30 {
     margin-top: 30px;
   }
 }
@@ -337,6 +400,24 @@
     text-align: left;
     max-width: 586px;
   }
+  .lorem-para-sction-3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7b7b7b;
+    max-width: 544px;
+  }
+  .grow-business {
+    font-family: "Poppins", sans-serif;
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.59px;
+    text-align: left;
+    color: #373737;
+    max-width: 491px;
+  }
 }
 @media (min-width: 768px) {
 }
@@ -349,12 +430,12 @@
     line-height: 38.2px;
     text-align: left;
   }
-  .sm-col-12{
+  .sm-col-12 {
     width: 100%;
     padding-right: 12px;
     padding-left: 12px;
   }
-  .sm-mt-30{
+  .sm-mt-30 {
     margin-top: 30px;
   }
 }
