@@ -9,7 +9,9 @@ $('.sliderbox').slick({
   speed: 300,
   arrow: true,
    nextArrow: ".next",
-    prevArrow: ".prev",
+  prevArrow: ".prev",
+  autoplay: true,
+    autoplaySpeed: 2000,
   slidesToShow: 3,
   slidesToScroll: 1,
   responsive: [
@@ -26,8 +28,7 @@ $('.sliderbox').slick({
        {
       breakpoint: 992,
       settings: {
-        slidesToShow: 2,
-        
+        slidesToShow: 2,  
         slidesToScroll: 1,
         infinite: true,
         dots: true
