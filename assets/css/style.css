@@ -590,6 +590,38 @@
 .gap-24 {
   gap: 24px;
 }
+.flex-direction-column {
+  flex-direction: column;
+}
+.long-box {
+  background-color: #ff5300;
+  padding: 70px 60px 70px 60px;
+  border-radius: 10px;
+  position: relative;
+}
+.red-section7 {
+  font-family: "Poppins", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 58.59px;
+  text-align: left;
+  color: white;
+}
+.top-experts {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: white;
+}
+.md-border-right {
+  border-right: 3px solid white;
+}
+.lg-border-right {
+  border-right: 3px solid white;
+}
+
 @media (max-width: 1400px) {
   .arrow-button {
     display: none !important;
@@ -650,6 +682,14 @@
   .lg-mt-30 {
     margin-top: 30px;
   }
+  .lg-col-4 {
+    width: 33.33%;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  .lg-border-right {
+    border: none;
+  }
 }
 @media (min-width: 992px) {
   .pt-200 {
@@ -699,6 +739,12 @@
   .md-p-0 {
     padding: 0%;
   }
+  .md-border-right {
+    border: none;
+  }
+  .mb-5 {
+    margin-bottom: 15px;
+  }
 }
 @media (max-width: 576px) {
   .first-heading {
@@ -730,5 +776,27 @@
     font-weight: 600;
     line-height: 58.59px;
     color: #373737;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .long-box::after {
+    content: "";
+    width: 3px;
+    top: 5%;
+    bottom: 5%;
+    background-color: white;
+    transform: translatex(-50%);
+    position: absolute;
+    left: 50%;
+  }
+  .long-box::before {
+    content: "";
+    height: 3px;
+    left: 5%;
+    background-color: white;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 5%;
   }
 }
