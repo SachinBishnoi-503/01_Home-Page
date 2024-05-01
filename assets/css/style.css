@@ -708,8 +708,68 @@
 .mt-60 {
   margin-top: 60px;
 }
-.ml-5{
+.ml-5 {
   margin-left: 5px;
+}
+.section9-box {
+  background-color: #ff5300;
+  padding: 65px 40px 65px 40px;
+  border-radius: 10px;
+}
+.section9-bottom-line {
+  width: 25px;
+  border-bottom: 1px solid white;
+}
+.subscribe-news-section9 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+.lets-stay-section9 {
+  font-family: "Poppins", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 58.59px;
+  text-align: left;
+  color: #ffffff;
+}
+.email-box {
+  padding: 5px 5px 5px 25px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.input-email {
+  border: none;
+  outline: none;
+  color: #7b7b7b;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 5px;
+}
+.subscribe-now-btn:hover {
+  background-color: #ffffff;
+  color: #ff5300;
+  border-radius: 3px solid #ff5300;
+}
+.subscribe-now-btn {
+  padding: 15px 33px 15px 33px;
+  background-color: #ff5300;
+  color: #ffffff;
+  border: 1px solid #ff5300;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-wrap: nowrap;
 }
 @media (max-width: 1400px) {
   .arrow-button {
@@ -717,6 +777,11 @@
   }
   .arrow-button-2 {
     display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .email-box {
+    width: 642px;
   }
 }
 @media (max-width: 992px) {
@@ -757,7 +822,15 @@
   .lg-flex-direction-column {
     flex-direction: column-reverse;
   }
-
+  .lg-flex-direction-colom {
+    flex-direction: column;
+  }
+  .lg-w-100 {
+    width: 100%;
+  }
+  .lg-mt-5 {
+    margin-top: 5px;
+  }
   .lg-col-12 {
     width: 100%;
     padding-right: 12px;
@@ -889,6 +962,38 @@
   }
   .sm-flex-direction-column {
     flex-direction: column;
+  }
+  .sm-w-100 {
+    width: 100%;
+  }
+  .lets-stay-section9 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23.06px;
+    font-weight: 600;
+    line-height: 58.59px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .email-box {
+    padding: 5px 5px 5px 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  .subscribe-now-btn {
+    padding: 10px 27px 10px 20px;
+    background-color: #ff5300;
+    color: #ffffff;
+    border: 1px solid #ff5300;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-wrap: nowrap;
+  }
+  .sm-mt-7{
+    margin-top: 7px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
