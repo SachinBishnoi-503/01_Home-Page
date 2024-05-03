@@ -882,8 +882,30 @@
 .pb-20 {
   padding-bottom: 20px;
 }
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
+}
+#myBtn {
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+    z-index: 4;
+    width: 50px;
+    display: none;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #FF5300;
+    animation: myBtn 5s infinite;
+}
+
+#myBtn:hover {
+    background-color: #FF5300;
+}
+
+#myBtn:hover path {
+    fill: white;
 }
 @media (max-width: 1400px) {
   .arrow-button {
