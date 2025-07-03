@@ -5,7 +5,7 @@ menuicon.addEventListener("click", function () {
 })
 $('.sliderbox').slick({
   dots: false,
-  infinite: false,
+  infinite: true,
   speed: 300,
   arrow: true,
    nextArrow: ".next",
